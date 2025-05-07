@@ -32,7 +32,7 @@ document.getElementById("usernameForm").addEventListener("submit", function (e) 
       setCookie("snakeUser", username);
       setCookie("snakeHighScore", 0);
       setCookie("gameMode", gameMode); // Store the selected difficulty
-      window.location.href = "index.html";
+      window.location.href = "game.html";
   } else {
       alert("Invalid username! Letters and numbers only.");
   }
