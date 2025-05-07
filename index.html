@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="landingPageStyle.css">
+</head>
+<body>
+    <header>
+        <div class="logo">snake <span>game</span></div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>snake <span>game</span></h1>
+            <p id="greeting"></p>
+            <form id="usernameForm">
+                <input type="text" id="username" name="username" 
+                       placeholder="Enter Username" required pattern="[A-Za-z0-9]+">
+                
+                <label for="gameMode">Choose Game Mode:</label>
+                <select id="gameMode" name="gameMode" required>
+                    <option value="" disabled selected>Select Mode</option>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+              
+                <button type="submit">Play Now</button>
+            </form>
+
+            <div class="game-info-container">
+                <div class="game-info">
+                    <span>GAME INFO</span>
+                    <div class="game-details">
+                        <ul>
+                            <li>🎮 Use arrow keys to move</li>
+                            <li>🍎 1 Apple = 1 Point</li>
+                            <li>❌ Game Over if you hit walls or yourself</li>
+                            <li>🐍 Try to beat your high score!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Snake Game</p>
+    </footer>
+
+    <script src="landingPage.js"></script>
+</body>
+</html>

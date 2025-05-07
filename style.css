@@ -1,0 +1,48 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.score-display {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+#board {
+    border: 3px solid #4CAF50;
+    background-color: #111;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+#restart-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#restart-btn:hover {
+    background-color: #45a049;
+}
